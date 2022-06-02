@@ -74,3 +74,25 @@ header{
     top: 1.5rem;
     border-radius: .6125rem;
 }
+
+.blogBox{
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+    background-color: #eae8e8;
+    width: 15rem;
+    border-radius: .6125rem;
+}
+
+.cardWidth{
+    width: 80%;
+}
+
+.cardHeight{
+    height: 207px;
+}
