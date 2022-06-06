@@ -5,7 +5,12 @@
     text-decoration: none;
 }
 
-body{
+body {
+    /*
+        Al darle al body un color por defecto le daras a todas las vistas
+        un color de fondo igual cosa que si en un futuro quieres que una seccion 
+        de la pagina sea personalizada te encontraras con un problema 
+    */
     background-color: #dddddd;
     font-family: 'Poppins', sans-serif;
 }
@@ -76,7 +81,6 @@ header{
 }
 
 .blogBox{
-    margin-top: 5rem;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -89,10 +93,50 @@ header{
     border-radius: .6125rem;
 }
 
-.cardWidth{
+.cardWidth {
     width: 80%;
 }
 
 .cardHeight{
     height: 207px;
 }
+
+/* Ejemplo */
+
+section.nav-header {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    padding: 8px 12px;
+    top: 0;
+    left: 0;
+}
+
+section.nav-header > .logoBox{
+    display: block;
+    float: left;
+}
+
+section.nav-header > ul{
+    display: block;
+    float: right;
+    position: relative;
+    padding: none;
+}
+
+section.nav-header > ul > li{
+    display: block;
+    list-style: none;
+    float: left;
+    padding: 0 11px;
+}
+
+.cont-main {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 150px 0 0 0;
+}
+
+

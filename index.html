@@ -11,50 +11,57 @@
         <title>Pawfle!</title>
     </head>
     <body>
-        <!-- Encabezado -->
-        <header>
-            <section class="logoBox">
-                <img src="img/paw.png" alt="Logo Pawfle" >
-                <span>Pawfle!</span>
-            </section>
-            <nav class="navBar">
-                <a href="index.html">Inicio</a>
-                <a href="html/portafolio.html">Portafolio</a>
-                <a href="html/sobrenosotros.html">Sobre Nosotros</a>
-                <a href="html/contacto.html">Contacto</a>
-            </nav>
-            <section class="searchBox">
-                <input type="search" placeholder="Buscar...">
-                <button>Buscar</button>    
-            </section>
-        </header>
-        <!-- Fin Encabezado -->
-        <!-- Contenido -->
-        <section class="blogBox">
-            <article class="card">
-                <h2>Tiger</h2>
-                <p>Mau Egipsio</p>
-                <img class="cardWidth" src="img/Tiger.jpg" alt="Tiger Mi Gato">
-                <p>Párrafo del Artículo</p>
-            </article>
-            <article class="card">
-                <h2>Chico</h2>
-                <p>Romano</p>
-                <img class="cardHeight" src="img/Chico.jpg" alt="Chico Mi Gato">
-                <p>Párrafo del Artículo</p>
-            </article>
-        </section>
-        <!-- Fin Contenido -->
-        <!-- Pie de Página -->
-        <footer>
-            <div class="redessociales">
+        <!-- 
+            Siempre usa un contenedor Padre distinto al Body 
+            ya que se considera mala practica , pero no te preocupes en 
+            las practicas que vamos a hacer vas a entender todo mejor
+         -->
+        <div class="cont-main">
+             <!-- Encabezado -->
+            <!--La etiqueta header en si no todos los navegadores la podran
+            ver asi que la cambie a class header-->
+            <section class="nav-header">
+                <div class="logoBox">
+                    <img src="img/paw.png" alt="Logo Pawfle" >
+                    <span>Pawfle!</span>
+                </div>
                 <ul>
-                    <li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
-                    <li><a href="http://www.instagram.com" target="_blank">Instagram</a></li>
-                    <li><a href="http://www.twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="html/portafolio.html">Portafolio</a></li>
+                    <li><a href="html/sobrenosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="html/contacto.html">Contacto</a></li> 
+                    <li><input type="search" placeholder="Buscar..."></li>
+                    <li>Buscar</li>
                 </ul>
-            </div>
-        </footer>
-        <!-- Fin Pie de Página -->
+            </section>
+            <!-- Fin Encabezado -->
+            <!-- Contenido -->
+            <section class="blogBox">
+                <article class="card">
+                    <h2>Tiger</h2>
+                    <p>Mau Egipsio</p>
+                    <img class="cardWidth" src="img/Tiger.jpg" alt="Tiger Mi Gato">
+                    <p>Párrafo del Artículo</p>
+                </article>
+                <article class="card">
+                    <h2>Chico</h2>
+                    <p>Romano</p>
+                    <img class="cardHeight" src="img/Chico.jpg" alt="Chico Mi Gato">
+                    <p>Párrafo del Artículo</p>
+                </article>
+            </section>
+            <!-- Fin Contenido -->
+            <!-- Pie de Página -->
+            <footer>
+                <div class="redessociales">
+                    <ul>
+                        <li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
+                        <li><a href="http://www.instagram.com" target="_blank">Instagram</a></li>
+                        <li><a href="http://www.twitter.com" target="_blank">Twitter</a></li>
+                    </ul>
+                </div>
+            </footer>
+            <!-- Fin Pie de Página -->
+        </div>
     </body>
 </html>
